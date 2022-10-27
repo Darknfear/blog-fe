@@ -1,6 +1,11 @@
 import { Component } from "@angular/core";
+import ENV from '../../../../config/env';
 
 @Component({
-  templateUrl: './header.component.html'
+  selector: 'header-component',
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.scss'],
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+  logo: string = ENV.LOGO_URL;
+}
