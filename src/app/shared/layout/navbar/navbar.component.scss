@@ -1,0 +1,25 @@
+nav {
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    li {
+      list-style: none;
+      font-weight: 700;
+      padding: 10px;
+      margin-left: 10px;
+
+      &:hover {
+        background: rgba(255, 255, 255, .15);
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      &:active {
+        background: rgba(255, 255, 255, .15);
+          border-radius: 5px;
+          cursor: pointer;
+      }
+    }
+  }
+}

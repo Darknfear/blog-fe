@@ -1,0 +1,2 @@
+// @NgComponent({})
+// export class FeatureComponent {}
